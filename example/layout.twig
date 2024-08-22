@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <title>{{ title }}</title>
+    <meta name="description" content="A demo of how to use gulp5-twig" />
+
+    <meta name="author" content="Alex Lenk" />
+</head>
+<body>
+<article>
+    {% block page %}{% endblock %}
+</article>
+
+<footer>
+    <p>
+        Source file: {{ _file.relative }}<br>
+        Target file: {{ _target.relative }}
+    </p>
+</footer>
+</body>
+</html>

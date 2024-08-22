@@ -1,0 +1,42 @@
+{
+  "name": "gulp5-twig",
+  "description": "A Gulp 5 plugin for compiling Twig templates (gulpjs.com)",
+  "version": "2.0.0",
+  "homepage": "http://github.com/alex-lenk/gulp5-twig",
+  "main": "./index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "dependencies": {
+    "plugin-error": "^2.0.1",
+    "twig": "^1.17.1"
+  },
+  "devDependencies": {
+    "jshint": "^2.13.6"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "Alex Lenk <plugin@fillcomment.com> (https://alexlenk.ru)",
+  "keywords": [
+    "gulp",
+    "gulp-plugin",
+    "twig",
+    "templating",
+    "frontend"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/alex-lenk/gulp5-twig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alex-lenk/gulp5-twig/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/alex-lenk/gulp5-twig/raw/master/LICENSE"
+    }
+  ]
+}
